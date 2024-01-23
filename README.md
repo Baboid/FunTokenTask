@@ -2,7 +2,7 @@
 
 This repository contains a simple Node.js microservice for user authentication and Mocha API tests for it's endpoints. The microservice provides two main endpoints: `/signup` for user registration and `/login` for user login. It is containerized using Docker for easy deployment.
 I am no devops engineer, but it was a bit odd to me that there are two separate Docker files mentioned in the pdf document. 
-So my assumption is that the docker image for the microservice is being deployed on it's own and so are the test being deployed on their own. So this is my approach to the solution with two Docker images, it's a bit simplified in this example, but here is it.
+So my assumption is that the docker image for the microservice is being deployed on it's own and so are the tests deployed on their own. So this is my approach to the solution with two Docker images, it's a bit simplified in this example, but here is it.
 
 
 ## Prerequisites
