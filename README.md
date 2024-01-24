@@ -76,4 +76,4 @@ The Fun Token User Authentication Microservice provides the following API endpoi
 
 ## Conclusion
 
-You have successfully set up and run the Fun Token User Authentication Microservice. You can now use the provided API endpoints for user registration and login. If you encounter any issues or have questions, please do not hesitate to contact the author Ivan Babic
+You have successfully set up and run the Fun Token User Authentication Microservice. You can now use the provided API endpoints for user registration and login. If you encounter any issues or have questions, please do not hesitate to contact the author Ivan Babic.
