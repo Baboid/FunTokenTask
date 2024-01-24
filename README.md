@@ -11,28 +11,31 @@ Before running the microservice, make sure you have the following installed on y
 
 - Docker
 - Node.js (if you want to run the microservice locally)
+- .env file (shared it with Andrew)
 
 ## Getting Started
 
 Follow the steps below to set up and run the Fun Token User Authentication Microservice.
 
-1. Create a Docker network for the microservice:
+1. Create a .env file in the root folder and paste in the values which I provided
+
+2. Create a Docker network for the microservice:
 
    ```bash
         docker network create fun-token-net
-2. Build the Docker image for the microservice:
+3. Build the Docker image for the microservice:
 
     ```bash
         docker build -t fun-token-task .
-3. Run the microservice container with the following command:
+4. Run the microservice container with the following command:
 
     ```bash
         docker run --name fun-token-service --env-file ./.env --network fun-token-net -p 4007:4007 -it fun-token-task
-4. Build the Docker image for running tests:
+5. Build the Docker image for running tests:
 
     ```bash
         docker build -f ./tests_run/Dockerfile -t fun-token-task-tests .
-5. Run the tests for the microservice using the following command:
+6. Run the tests for the microservice using the following command:
 
     ```bash
         docker run --name fun-token-tests --env-file ./.env --network fun-token-net -it fun-token-task-tests
