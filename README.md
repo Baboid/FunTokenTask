@@ -11,13 +11,12 @@ Before running the microservice, make sure you have the following installed on y
 
 - Docker
 - Node.js (if you want to run the microservice locally)
-- .env file (shared it with Andrew)
 
 ## Getting Started
 
 Follow the steps below to set up and run the Fun Token User Authentication Microservice.
 
-1. Create a .env file in the root folder and paste in the values which I provided
+1. Create a .env file in the root folder of the project and paste in the values which I provided to Andrew
 
 2. Create a Docker network for the microservice:
 
